@@ -8,8 +8,20 @@
     "dist/**/*"
   ],
   "scripts": {
+    "build": "tsc",
     "prepare": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lootably/lootably-offers-api-types.git"
+  },
+  "keywords": [
+    "typescript",
+    "types",
+    "lootably",
+    "offers",
+    "api"
+  ],
   "author": "Lootably, Inc.",
   "license": "ISC",
   "devDependencies": {
