@@ -1,6 +1,6 @@
 {
   "name": "lootably-offers-api-types",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "TypeScript type definitions for Lootably's Offers API",
   "main": "dist/index.d.ts",
   "types": "dist/index.d.ts",
@@ -9,7 +9,10 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "publish-patch": "npm run build && npm version patch && npm publish && git push --follow-tags",
+    "publish-minor": "npm run build && npm version minor && npm publish && git push --follow-tags",
+    "publish-major": "npm run build && npm version major && npm publish && git push --follow-tags"
   },
   "repository": {
     "type": "git",
