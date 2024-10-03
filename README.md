@@ -43,6 +43,7 @@ const API_URL = 'https://api.lootably.com/api/v2/offers/get';
 async function fetchOffers(): Promise<void> {
   const requestBody = {
     placementID: process.env.PLACEMENT_ID,
+    apiKey: process.env.API_KEY,
     userData: {
       userID: 'exampleUserID',
       userAgentHeader: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
