@@ -10,6 +10,7 @@ type APIOfferGoal = {
   description: string,
   revenue: number,
   currencyReward: number,
+  isOptional: boolean,
 };
 
 type APIMultistepOffer = {
