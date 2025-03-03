@@ -26,6 +26,9 @@ type APIMultistepOffer = {
   goals: APIOfferGoal[],
   conversionRate: number,
   extraCreatives: ExtraCreative[],
+  statistics: {
+    uniqueUserCompletionsThisMonth: number,
+  },
   previewURL?: string,
   bundlePackageID?: string,
   appStoreCategories?: string[],

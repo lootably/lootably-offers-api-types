@@ -20,6 +20,9 @@ type APISinglestepOffer = {
   conversionRate: number,
   extraCreatives: ExtraCreative[],
   multipleConversionsAllowed: boolean,
+  statistics: {
+    uniqueUserCompletionsThisMonth: number,
+  },
   previewURL?: string,
   bundlePackageID?: string,
   appStoreCategories?: string[],
