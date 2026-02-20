@@ -22,7 +22,9 @@ type APISinglestepOffer = {
   multipleConversionsAllowed: boolean,
   statistics: {
     uniqueUserCompletionsThisMonth: number,
+    epc: number,
   },
+  probableTrackingTelemetry: boolean,
   previewURL?: string,
   bundlePackageID?: string,
   appStoreCategories?: string[],

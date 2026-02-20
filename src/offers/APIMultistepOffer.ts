@@ -28,7 +28,9 @@ type APIMultistepOffer = {
   extraCreatives: ExtraCreative[],
   statistics: {
     uniqueUserCompletionsThisMonth: number,
+    epc: number,
   },
+  probableTrackingTelemetry: boolean,
   previewURL?: string,
   bundlePackageID?: string,
   appStoreCategories?: string[],
