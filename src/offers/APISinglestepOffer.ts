@@ -25,6 +25,7 @@ type APISinglestepOffer = {
     epc: number,
   },
   probableTrackingTelemetry: boolean,
+  minutesUntilExpiration: number,
   previewURL?: string,
   bundlePackageID?: string,
   appStoreCategories?: string[],

@@ -11,6 +11,7 @@ type APIOfferGoal = {
   revenue: number,
   currencyReward: number,
   isOptional: boolean,
+  minutesUntilExpiration: number,
 };
 
 type APIMultistepOffer = {
