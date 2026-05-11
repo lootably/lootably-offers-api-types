@@ -1,6 +1,6 @@
 {
   "name": "lootably-offers-api-types",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "TypeScript type definitions for Lootably's Offers API",
   "main": "dist/index.d.ts",
   "types": "dist/index.d.ts",
