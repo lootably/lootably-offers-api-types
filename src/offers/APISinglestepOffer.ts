@@ -5,6 +5,10 @@ import type PaymentModel from '../dependencies/PaymentModel';
 import type OfferRestrictions from '../dependencies/OfferRestrictions';
 import type ExtraCreative from '../dependencies/ExtraCreative';
 
+type APIDummyEvent = {
+  description: string,
+};
+
 type APISinglestepOffer = {
   type: 'singlestep',
   name: string,
@@ -32,6 +36,7 @@ type APISinglestepOffer = {
   appStoreDescription?: string,
   paymentModel?: PaymentModel,
   restrictions?: OfferRestrictions,
+  dummyEvents?: APIDummyEvent[],
   stateTargetingByCountryCode?: {
     [countryCode: string]: {
       includeStateCodes: string[],

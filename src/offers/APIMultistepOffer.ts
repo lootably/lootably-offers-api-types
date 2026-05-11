@@ -14,6 +14,10 @@ type APIOfferGoal = {
   minutesUntilExpiration: number,
 };
 
+type APIDummyEvent = {
+  description: string,
+};
+
 type APIMultistepOffer = {
   type: 'multistep',
   name: string,
@@ -38,6 +42,7 @@ type APIMultistepOffer = {
   appStoreDescription?: string,
   paymentModel?: PaymentModel,
   restrictions?: OfferRestrictions,
+  dummyEvents?: APIDummyEvent[],
   stateTargetingByCountryCode?: {
     [countryCode: string]: {
       includeStateCodes: string[],
