@@ -4,7 +4,7 @@ TypeScript type definitions for Lootably's Offers API.
 
 ## API Documentation
 
-For detailed information about the Lootably Offers API, including request parameters and response structures, please refer to the [Lootably API Guide](https://lootably.readme.io/docs/api-guide).
+For detailed information about the Lootably Offers API, including request parameters and response structures, please refer to the [Lootably API Guide](https://documentation.lootably.com/docs/offers-api-guide).
 
 ## Description
 
